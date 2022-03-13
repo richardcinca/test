@@ -1,0 +1,5 @@
+from rest import db
+db.create_all()
+from rest import Products
+product = Products(name="Sneakers", description="Basketball Sneakers")
+db.session.add(product)
