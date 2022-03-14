@@ -36,7 +36,7 @@ data = mycollection.find({})
 
 app = Flask(__name__)
 app.config['MONGODB_SETTINGS'] = {
-    'db': mydb,
+    'db': mydb
     
 }
 
