@@ -37,8 +37,7 @@ data = mycollection.find({})
 app = Flask(__name__)
 app.config['MONGODB_SETTINGS'] = {
     'db': mydb,
-    'host': 'localhost',
-    'port': 27017
+    
 }
 
 # db = MongoEngine()
