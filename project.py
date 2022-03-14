@@ -35,10 +35,6 @@ data = mycollection.find({})
 #     print(n)
 
 app = Flask(__name__)
-app.config['MONGODB_SETTINGS'] = {
-    'db': mydb
-    
-}
 
 # db = MongoEngine()
 # db.init_app(app)
